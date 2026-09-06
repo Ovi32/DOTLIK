@@ -77,13 +77,13 @@ export default function Home() {
       </section>
 
       <section id="contact" className="contact">
-        <div><div className="eyebrow">CONTACT US</div><h2>Let’s build something <span>great.</span></h2><p>We’re happy to answer questions and help you determine which services best fit your needs.</p><div className="contactInfo"><Mail size={19}/><span>dotlik10@gmail.com</span></div><div className="contactInfo"><MessageSquare size={19}/><span>+880 1893-900305</span></div></div>
-        <form action="mailto:dotlik10@gmail.com" method="post" encType="text/plain">
+        <div><div className="eyebrow">CONTACT US</div><h2>Let’s build something <span>great.</span></h2><p>We’re happy to answer questions and help you determine which services best fit your needs.</p><div className="contactInfo"><Mail size={19}/><span>ceo@dotlik.com</span></div><div className="contactInfo"><MessageSquare size={19}/><span>+8801743006010</span></div></div>
+        <form action="mailto:ceo@dotlik.com" method="post" encType="text/plain">
           <input name="Name" placeholder="Name" required/><input name="Email" type="email" placeholder="Company Email" required/><input name="Phone" placeholder="Phone"/><select name="Service" defaultValue=""><option value="" disabled>How can we help you?</option>{services.map(([t])=><option key={t}>{t}</option>)}</select><textarea name="Message" placeholder="Message" rows="5"/><button className="primary" type="submit">Send Message <ArrowRight size={17}/></button>
         </form>
       </section>
 
-      <footer><div className="logo"><span className="logoMark">D</span><span>DOTLIK <b>IT</b></span></div><p>It's Tech Solution</p><div className="footerLinks"><a href="#services">Services</a><a href="#about">About</a><a href="#industries">Industries</a><a href="#contact">Contact</a></div><small>© 2026 Dotlik IT. All rights reserved.</small></footer>
+      <footer><div className="logo"><span className="logoMark">D</span><span>DOTLIK <b>IT</b></span></div><p>It's Tech Solution</p><div className="footerLinks"><a href="#services">Services</a><a href="#about">About</a><a href="#industries">Industries</a><a href="#contact">Contact</a></div><small>© 2020 Dotlik IT. All rights reserved. Developed By Team Taher Mamun and Maintain by Hasan Sheikh and Majlan Yousuf Ovi</small></footer>
     </main>
   );
 }
