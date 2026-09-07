@@ -10,6 +10,7 @@ const services = [
 ];
 
 const industries = ["Industry & Manufacturing","Transportation & Logistics","Healthcare","E-commerce Industry","Consulting Providers","Non-Profit","Travel Industry","Education & Training","Real Estate"];
+
 const technologies = [
   ["Redux","Predictable state management for modern JavaScript applications."],
   ["MongoDB","Flexible document storage designed for scalable applications."],
@@ -22,7 +23,9 @@ export default function Home() {
   return (
     <main>
       <header className="nav">
-        <a href="#" className="logo"><span className="logoMark">D</span><span>DOTLIK <b>IT</b></span></a>
+        <a href="#" className="logo">
+          <img src="/logo.png" alt="DOTLIK IT - It's tech solution" className="logoImg" style={{ height: "40px", width: "auto" }} />
+        </a>
         <nav>
           <a href="#services">Solutions</a><a href="#industries">Industries</a><a href="#about">About Us</a><a href="#contact">Contact</a>
         </nav>
@@ -83,7 +86,13 @@ export default function Home() {
         </form>
       </section>
 
-      <footer><div className="logo"><span className="logoMark">D</span><span>DOTLIK <b>IT</b></span></div><p>It's Tech Solution</p><div className="footerLinks"><a href="#services">Services</a><a href="#about">About</a><a href="#industries">Industries</a><a href="#contact">Contact</a></div><small>© 2020 Dotlik IT. All rights reserved. Developed By Team Taher Mamun and Maintain by Hasan Sheikh and Majlan Yousuf Ovi</small></footer>
+      <footer>
+        <div className="logo">
+          <img src="/logo.png" alt="DOTLIK IT - It's tech solution" className="logoImg" style={{ height: "32px", width: "auto" }} />
+        </div>
+        <div className="footerLinks"><a href="#services">Services</a><a href="#about">About</a><a href="#industries">Industries</a><a href="#contact">Contact</a></div>
+        <small>© 2020 Dotlik IT. All rights reserved. Developed By Team Taher Mamun and Maintain by Hasan Sheikh and Majlan Yousuf Ovi</small>
+      </footer>
     </main>
   );
 }
