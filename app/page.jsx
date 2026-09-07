@@ -24,7 +24,7 @@ export default function Home() {
     <main>
       <header className="nav">
         <a href="#" className="logo">
-          <img src="/logo.png" alt="DOTLIK IT - It's tech solution" className="logoImg" style={{ height: "40px", width: "auto" }} />
+          <img src="/LOGO.png" alt="DOTLIK IT - It's tech solution" className="logoImg" style={{ height: "40px", width: "auto" }} />
         </a>
         <nav>
           <a href="#services">Solutions</a><a href="#industries">Industries</a><a href="#about">About Us</a><a href="#contact">Contact</a>
