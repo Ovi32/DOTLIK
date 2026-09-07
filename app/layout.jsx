@@ -4,16 +4,16 @@ export const metadata = {
   title: "DOTLIK IT - It's Tech Solution",
   description: "Fast, intuitive websites and mobile apps by Dotlik IT.",
   icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
-    apple: "/logo.png",
+    icon: "/LOGO.png",
+    shortcut: "/LOGO.png",
+    apple: "/LOGO.png",
   },
   openGraph: {
     title: "DOTLIK IT - It's Tech Solution",
     description: "Fast, intuitive websites and mobile apps by Dotlik IT.",
     images: [
       {
-        url: "/logo.png",
+        url: "/LOGO.png",
         width: 800,
         height: 600,
         alt: "DOTLIK IT Logo",
