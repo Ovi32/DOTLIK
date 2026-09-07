@@ -88,7 +88,7 @@ export default function Home() {
 
       <footer>
         <div className="logo">
-          <img src="/logo.png" alt="DOTLIK IT - It's tech solution" className="logoImg" style={{ height: "32px", width: "auto" }} />
+          <img src="/LOGO.png" alt="DOTLIK IT - It's tech solution" className="logoImg" style={{ height: "32px", width: "auto" }} />
         </div>
         <div className="footerLinks"><a href="#services">Services</a><a href="#about">About</a><a href="#industries">Industries</a><a href="#contact">Contact</a></div>
         <small>© 2020 Dotlik IT. All rights reserved. Developed By Team Taher Mamun and Maintain by Hasan Sheikh and Majlan Yousuf Ovi</small>
